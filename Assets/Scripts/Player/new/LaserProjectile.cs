@@ -32,7 +32,7 @@ public class LaserProjectile : MonoBehaviour
         }
         else if (otherObject.CompareTag("Player"))
         {
-            Debug.Log("Саси");
+            Debug.Log("Попадание");
         }
 
         Destroy(gameObject);
